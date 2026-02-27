@@ -1,0 +1,10 @@
+deployment:
+  replicas: 1
+  image: jasonops/app 
+  tag: webserverv1
+
+labels:
+  app: webserver-test
+
+metadata:
+  name: webserver-test
